@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase 1 Title Asssertion pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase 2 Url Assertion pass]]>
+    </line>
+    <line>
+      <![CDATA[Testcase 3 Text Assertion pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-17T13:36:05 UTC" name="Suite" finished-at="2026-01-17T13:36:15 UTC" duration-ms="10663">
+    <groups>
+    </groups>
+    <test started-at="2026-01-17T13:36:05 UTC" name="Test" finished-at="2026-01-17T13:36:15 UTC" duration-ms="10663">
+      <class name="TestCase.Test3">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCase.Test3@3e62d773]" started-at="2026-01-17T13:36:11 UTC" name="open" finished-at="2026-01-17T13:36:12 UTC" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="mailAvailability(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.Test3@3e62d773]" started-at="2026-01-17T13:36:12 UTC" name="mailAvailability" data-provider="data3" finished-at="2026-01-17T13:36:15 UTC" duration-ms="2798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Create Account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shailesh Kumar]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shailesh.2026]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yippie! The ID you've chosen is available.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase 3 Text Assertion pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mailAvailability -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.Test3@3e62d773]" started-at="2026-01-17T13:36:15 UTC" name="close" finished-at="2026-01-17T13:36:15 UTC" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCase.Test3 -->
+      <class name="TestCase.Test2">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCase.Test2@4c2bb6e0]" started-at="2026-01-17T13:36:08 UTC" name="open" finished-at="2026-01-17T13:36:09 UTC" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="account(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCase.Test2@4c2bb6e0]" started-at="2026-01-17T13:36:09 UTC" name="account" data-provider="data2" finished-at="2026-01-17T13:36:11 UTC" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Create Account]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FormName=user_details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase 2 Url Assertion pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- account -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.Test2@4c2bb6e0]" started-at="2026-01-17T13:36:11 UTC" name="close" finished-at="2026-01-17T13:36:11 UTC" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCase.Test2 -->
+      <class name="TestCase.Test1">
+        <test-method is-config="true" signature="open()[pri:0, instance:TestCase.Test1@461ad730]" started-at="2026-01-17T13:36:05 UTC" name="open" finished-at="2026-01-17T13:36:07 UTC" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="Navigate(java.lang.String,java.lang.String)[pri:0, instance:TestCase.Test1@461ad730]" started-at="2026-01-17T13:36:07 UTC" name="Navigate" data-provider="data1" finished-at="2026-01-17T13:36:08 UTC" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rediff.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase 1 Title Asssertion pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Navigate -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCase.Test1@461ad730]" started-at="2026-01-17T13:36:08 UTC" name="close" finished-at="2026-01-17T13:36:08 UTC" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCase.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
